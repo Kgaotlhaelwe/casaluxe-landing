@@ -134,6 +134,13 @@ summary:focus-visible {
   padding: clamp(56px, 8vw, 112px) clamp(18px, 4vw, 56px);
 }
 
+.hero--docs {
+  grid-template-columns: 1fr;
+  min-height: 430px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
 .hero__content,
 .section__intro,
 .showcase__text,
